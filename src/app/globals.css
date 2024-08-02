@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-stoke {
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: rgb(233, 181, 255);
+}
