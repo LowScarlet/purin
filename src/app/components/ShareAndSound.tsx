@@ -4,9 +4,9 @@ import { FaXTwitter } from "react-icons/fa6";
 import { HiMiniSpeakerWave } from "react-icons/hi2";
 
 const shareIcons = [
-  { Icon: FaXTwitter, href: "" },
-  { Icon: AiOutlineInstagram, href: "" },
-  { Icon: AiOutlineTikTok, href: "" },
+  { Icon: FaXTwitter, href: "https://x.com/purinkokoa_" },
+  { Icon: AiOutlineInstagram, href: "https://www.instagram.com/purinkokoa_" },
+  { Icon: AiOutlineTikTok, href: "https://www.tiktok.com/@purinkokoa" },
 ];
 
 const ShareAndSound = () => {
@@ -16,7 +16,7 @@ const ShareAndSound = () => {
         <p className="text-xs">Share</p>
         <div className="flex gap-x-4 text-2xl ms-8">
           {shareIcons.map((item) => (
-            <Link href={item.href} key={item.href} className="block hover:text-[#b06fce] transition duration-300 ease-in-out">
+            <Link href={item.href} key={item.href} target="_blank" className="block hover:text-[#b06fce] transition duration-300 ease-in-out">
               <item.Icon />
             </Link>
           ))}

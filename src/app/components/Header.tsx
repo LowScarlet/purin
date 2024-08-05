@@ -12,6 +12,7 @@ import {
   type ISourceOptions,
 } from "@tsparticles/engine";
 import { loadSlim } from "@tsparticles/slim";
+import Link from "next/link";
 
 const permanentMarker = Permanent_Marker({
   subsets: ["latin"],
@@ -110,9 +111,9 @@ const Header = () => {
         <div className="flex justify-between mx-4 my-4">
           <Carousel />
           <div className="flex items-end">
-            <div className="border-[#b06ecf] border-2 bg-[#b06ecf] rounded-full overflow-hidden">
+            <Link href={"https://www.youtube.com/@purinkokoa_"} target="_blank" className="block border-[#b06ecf] border-2 bg-[#b06ecf] rounded-full transition-transform duration-300 overflow-hidden hover:scale-110">
               <Image width={96} height={96} src={"/pp.jpg"} alt="Profile picture" quality={100} />
-            </div>
+            </Link>
           </div>
         </div>
       </div>

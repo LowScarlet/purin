@@ -1,11 +1,5 @@
 import Link from "next/link";
-import { Permanent_Marker } from "next/font/google";
 import { SiNextdotjs, SiTailwindcss, SiVercel } from "react-icons/si";
-
-const permanentMarker = Permanent_Marker({
-  subsets: ["latin"],
-  weight: "400",
-});
 
 const Footer = () => {
   return (

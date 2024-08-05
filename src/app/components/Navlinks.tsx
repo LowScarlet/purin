@@ -1,11 +1,11 @@
 import Link from "next/link";
 
 const navLinks = [
-  { display: "News", href: "" },
-  { display: "About", href: "" },
-  { display: "Community", href: "" },
-  { display: "Special", href: "" },
-  { display: "Disclaimer", href: "" },
+  { display: "News", href: "/news" },
+  { display: "About", href: "/about" },
+  { display: "Schedule", href: "/schedule" },
+  { display: "Community", href: "/community" },
+  { display: "Disclaimer", href: "/disclaimer" },
 ];
 
 const NavLinks = () => {
